@@ -49,7 +49,7 @@ Please note that the music link above was stolen from another codepen pen. I hav
 Here is the helper function I use to for when I want to iterate through the heights of the sound bars displayed in the music visualisation. Note how the result is normalised between 0 and 1, 0 is no volume, 1 is maximum.
 ```js
 //Returns the average of a small sample of the array, normalised between 0-1. Index declares which sample you want, ideal for iteration.
-//How to use this function is best described through example - see how I use it in the p5js code below. It's super simple (I think!).
+//How to use this function is best described through example - see how I use it in the p5js code below.
 function getSampleOfSoundData(index, noSampleSections, soundDataArray){
   let sampleSize = Math.floor((soundDataArray.length/2) / noSampleSections); 
   
