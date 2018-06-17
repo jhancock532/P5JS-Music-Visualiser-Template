@@ -95,3 +95,4 @@ function displayVisualiser() {
   }
 }
 ```
+You can view the result live [here](https://codepen.io/jhancock532/details/QxqQRN/).
